@@ -1,5 +1,7 @@
 class Pet:
     pass
 
+
 class Owner:
-    pass
+    def __init__(self, name):
+        self.name = name
