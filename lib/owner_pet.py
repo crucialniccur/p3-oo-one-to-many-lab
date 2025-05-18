@@ -1,6 +1,7 @@
 class Pet:
 
     PET_TYPES = ["dog", "cat", "rodent", "bird", "reptile", "exotic"]
+    all = []
 
     def __init__(self, name, pet_type):
         if pet_type in Pet.PET_TYPES:
