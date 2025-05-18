@@ -14,3 +14,6 @@ class Pet:
 class Owner:
     def __init__(self, name):
         self.name = name
+
+    def pets(self):
+        return Pet.all
